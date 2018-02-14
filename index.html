@@ -5,8 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- 위 3개의 메타 태그는 *반드시* head 태그의 처음에 와야합니다; 어떤 다른 콘텐츠들은 반드시 이 태그들 *다음에* 와야 합니다 -->
-        <title>연습</title>
-        
+        <title>연습용페이지</title>
+        <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
+        <!-- 이 js가 가장 먼저 와야 dropdown이 작동함 -->
         <script src="http://code.jquery.com/jquery-latest.min.js"></script> 
 
         <!-- 합쳐지고 최소화된 최신 CSS -->
@@ -17,10 +18,15 @@
 
         <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        
+        <!-- body padding -->
+        <style>
+            body { padding-top: 70px; }
+        </style>
 
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -72,9 +78,8 @@
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
-        </nav>
+        </nav> <!-- nav-bar -->
 
-        <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
     </body>
 </html>
